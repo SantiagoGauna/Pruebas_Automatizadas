@@ -1,0 +1,502 @@
+{
+	"info": {
+		"_postman_id": "db18e61d-8009-44e2-8664-45fd2ad9f869",
+		"name": "APis GET - GoTruck - NEW DISTRI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20076885",
+		"_collection_link": "https://universal-robot-379535.postman.co/workspace/GoTruck~877d464d-27eb-428b-8d1e-75a79be4eac6/collection/20434239-db18e61d-8009-44e2-8664-45fd2ad9f869?action=share&source=collection_link&creator=20076885"
+	},
+	"item": [
+		{
+			"name": "Hojas de ruta - Distri",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "TOKEN 7xqj)q-csie1k9!u(%!hhfqamhi#mky&et0%&@xd%4h+lb3qsb"
+					}
+				],
+				"url": {
+					"raw": "{{dev_emser}}/entities/hojas-de-ruta?id_repartidor=T400",
+					"host": [
+						"{{dev_emser}}"
+					],
+					"path": [
+						"entities",
+						"hojas-de-ruta"
+					],
+					"query": [
+						{
+							"key": "id_repartidor",
+							"value": "T400"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET Bancos",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "TOKEN 7xqj)q-csie1k9!u(%!hhfqamhi#mky&et0%&@xd%4h+lb3qsb"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{dev_emser}}/entities/bancos",
+					"host": [
+						"{{dev_emser}}"
+					],
+					"path": [
+						"entities",
+						"bancos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Repartidores",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "TOKEN 7xqj)q-csie1k9!u(%!hhfqamhi#mky&et0%&@xd%4h+lb3qsb"
+					}
+				],
+				"url": {
+					"raw": "{{dev_emser}}/entities/repartidores?id_repartidor=T400",
+					"host": [
+						"{{dev_emser}}"
+					],
+					"path": [
+						"entities",
+						"repartidores"
+					],
+					"query": [
+						{
+							"key": "id_repartidor",
+							"value": "T400"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Provincias",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "TOKEN 7xqj)q-csie1k9!u(%!hhfqamhi#mky&et0%&@xd%4h+lb3qsb"
+					}
+				],
+				"url": {
+					"raw": "{{dev_emser}}/entities/provincias",
+					"host": [
+						"{{dev_emser}}"
+					],
+					"path": [
+						"entities",
+						"provincias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Localidades",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "TOKEN 7xqj)q-csie1k9!u(%!hhfqamhi#mky&et0%&@xd%4h+lb3qsb"
+					}
+				],
+				"url": {
+					"raw": "{{dev_emser}}/entities/localidades",
+					"host": [
+						"{{dev_emser}}"
+					],
+					"path": [
+						"entities",
+						"localidades"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Tipo Retencion",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "TOKEN 7xqj)q-csie1k9!u(%!hhfqamhi#mky&et0%&@xd%4h+lb3qsb"
+					}
+				],
+				"url": {
+					"raw": "{{dev_emser}}/entities/tipos-retenciones",
+					"host": [
+						"{{dev_emser}}"
+					],
+					"path": [
+						"entities",
+						"tipos-retenciones"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Motivos No Entrega",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "TOKEN 7xqj)q-csie1k9!u(%!hhfqamhi#mky&et0%&@xd%4h+lb3qsb"
+					}
+				],
+				"url": {
+					"raw": "{{dev_emser}}/entities/motivos-no-entrega",
+					"host": [
+						"{{dev_emser}}"
+					],
+					"path": [
+						"entities",
+						"motivos-no-entrega"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Clientes",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "TOKEN 7xqj)q-csie1k9!u(%!hhfqamhi#mky&et0%&@xd%4h+lb3qsb"
+					}
+				],
+				"url": {
+					"raw": "{{dev_emser}}/entities/clientes?id_repartidor=T400",
+					"host": [
+						"{{dev_emser}}"
+					],
+					"path": [
+						"entities",
+						"clientes"
+					],
+					"query": [
+						{
+							"key": "id_repartidor",
+							"value": "T400"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Medios de Pago",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "TOKEN 7xqj)q-csie1k9!u(%!hhfqamhi#mky&et0%&@xd%4h+lb3qsb"
+					}
+				],
+				"url": {
+					"raw": "{{dev_emser}}/entities/medios-pagos",
+					"host": [
+						"{{dev_emser}}"
+					],
+					"path": [
+						"entities",
+						"medios-pagos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Factura Cabecera",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "TOKEN 7xqj)q-csie1k9!u(%!hhfqamhi#mky&et0%&@xd%4h+lb3qsb"
+					}
+				],
+				"url": {
+					"raw": "{{dev_emser}}/entities/factura-cabecera?id_repartidor=T400",
+					"host": [
+						"{{dev_emser}}"
+					],
+					"path": [
+						"entities",
+						"factura-cabecera"
+					],
+					"query": [
+						{
+							"key": "id_repartidor",
+							"value": "T400"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Factura Detalle",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "TOKEN 7xqj)q-csie1k9!u(%!hhfqamhi#mky&et0%&@xd%4h+lb3qsb"
+					}
+				],
+				"url": {
+					"raw": "{{dev_emser}}/entities/factura-detalle?id_repartidor=T400",
+					"host": [
+						"{{dev_emser}}"
+					],
+					"path": [
+						"entities",
+						"factura-detalle"
+					],
+					"query": [
+						{
+							"key": "id_repartidor",
+							"value": "T400"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cuenta Corriente",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "TOKEN 7xqj)q-csie1k9!u(%!hhfqamhi#mky&et0%&@xd%4h+lb3qsb"
+					}
+				],
+				"url": {
+					"raw": "{{dev_emser}}/entities/cuenta-corriente?id_repartidor=T400",
+					"host": [
+						"{{dev_emser}}"
+					],
+					"path": [
+						"entities",
+						"cuenta-corriente"
+					],
+					"query": [
+						{
+							"key": "id_repartidor",
+							"value": "T400"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Clientes Direcciones",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "TOKEN 7xqj)q-csie1k9!u(%!hhfqamhi#mky&et0%&@xd%4h+lb3qsb"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{dev_emser}}/entities/clientes-direciones?id_repartidor=T400",
+					"host": [
+						"{{dev_emser}}"
+					],
+					"path": [
+						"entities",
+						"clientes-direciones"
+					],
+					"query": [
+						{
+							"key": "id_repartidor",
+							"value": "T400"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Categoria Clientes",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "TOKEN 7xqj)q-csie1k9!u(%!hhfqamhi#mky&et0%&@xd%4h+lb3qsb"
+					}
+				],
+				"url": {
+					"raw": "{{dev_emser}}/entities/categorias-clientes",
+					"host": [
+						"{{dev_emser}}"
+					],
+					"path": [
+						"entities",
+						"categorias-clientes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Canales Clientes",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "TOKEN 7xqj)q-csie1k9!u(%!hhfqamhi#mky&et0%&@xd%4h+lb3qsb"
+					}
+				],
+				"url": {
+					"raw": "{{dev_emser}}/entities/canales-clientes",
+					"host": [
+						"{{dev_emser}}"
+					],
+					"path": [
+						"entities",
+						"canales-clientes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cuenta-Saldo",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "TOKEN 7xqj)q-csie1k9!u(%!hhfqamhi#mky&et0%&@xd%4h+lb3qsb"
+					}
+				],
+				"url": {
+					"raw": "{{dev_emser}}/entities/cuenta-saldo?id_repartidor=T400",
+					"host": [
+						"{{dev_emser}}"
+					],
+					"path": [
+						"entities",
+						"cuenta-saldo"
+					],
+					"query": [
+						{
+							"key": "id_repartidor",
+							"value": "T400"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Articulo",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "TOKEN 7xqj)q-csie1k9!u(%!hhfqamhi#mky&et0%&@xd%4h+lb3qsb"
+					}
+				],
+				"url": {
+					"raw": "{{dev_emser}}/entities/articulos?id_repartidor=T400",
+					"host": [
+						"{{dev_emser}}"
+					],
+					"path": [
+						"entities",
+						"articulos"
+					],
+					"query": [
+						{
+							"key": "id_repartidor",
+							"value": "T400"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					"// Verificar el código de estado HTTP\r",
+					"pm.test(\"Status code is 200\", function () {\r",
+					"    pm.response.to.have.status(200);\r",
+					"});\r",
+					"\r",
+					"// Verificar si el contenido de la respuesta es un JSON válido\r",
+					"pm.test(\"Response body is a valid JSON\", function () {\r",
+					"    pm.response.to.be.json;\r",
+					"});\r",
+					"\r",
+					""
+				]
+			}
+		}
+	]
+}
